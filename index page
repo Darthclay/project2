@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset ="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>The Intelligent Ed system</title>
+	  <link rel="stylesheet"href="style.css">
+	</head>
+	
+<section class="Welcome-text d-flex">
+	<h3>WELCOME TO THE INTELLIGENT EDUCATION SYSTEM</h3>
+	
+
+</section>
+         		<h3>SIGN IN</h3>
+             <form method="POST">
+	<body>
+		 <div class="container">
+		 	<form action="sign up.php" method="post">
+		 	    <input type="text" class="form-control mt-4"name="firstname" id="" placeholder="First Name:">
+		 	    <input type="text"class="form-control mt-4" name="lastname" id="" placeholder="last Name:">
+		 	    <input type="email"class="form-control mt-4" name="email" id="" placeholder="Enter email:">
+		 	    <input type="password"class="form-control mt-4" name="password"id="" placeholder="password">
+                <input type="password"class="form-control mt-4" name="password"id="" placeholder="confirm password">
+		 	   
+		 	   
+		 	    <input type="submit"class="btn btn-primary mt-4" value="submit" name="submit">
+		 	</form>
+		 	<p>Already have an account? <a href="login.php">Login here</a></p>
+		 </div>
+	</body>
+</html>
